@@ -3,7 +3,7 @@ import pygame
 pygame.init()
 window = pygame.display.set_mode((640, 480))
 
-robot = pygame.image.load("robot.JPG")
+robot = pygame.image.load("robot.jpg")
 
 window.fill((0,0,0))
 window.blit(robot, (0, 0))
