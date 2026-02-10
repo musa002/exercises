@@ -11,7 +11,7 @@ while True:
             x = event.pos[0]-robot.get_width()/2
             y = event.pos[1]-robot.get_height()/2
 
-            window.fill((0, 0, 0))
+            window.fill((-5, 0, 0))
             window.blit(robot, (x, y))
             pygame.display.flip()
 
